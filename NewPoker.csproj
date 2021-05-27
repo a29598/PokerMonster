@@ -1,0 +1,2116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F1291E3A-7FBE-24A5-75B4-AA7930F11329}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2018.4.26f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_26;UNITY_2018_4;UNITY_2018;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_26;UNITY_2018_4;UNITY_2018;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Managed/UnityEngine/UnityEngine">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AIModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ARModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AccessibilityModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AnimationModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AssetBundleModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AudioModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.BaselibModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ClothModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CoreModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CrashReportingModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.DirectorModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.FileSystemHttpModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GameCenterModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GridModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.HotReloadModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.IMGUIModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ImageConversionModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.InputModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.JSONSerializeModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.LocalizationModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ParticleSystemModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PerformanceReportingModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PhysicsModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.Physics2DModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ProfilerModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ScreenCaptureModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SharedInternalsModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpatialTrackingModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteMaskModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteShapeModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.StreamingModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.StyleSheetsModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SubstanceModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TLSModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TextCoreModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TextRenderingModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TilemapModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TimelineModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIElementsModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UNETModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UmbraModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityConnectModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VFXModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VRModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VehiclesModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VideoModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.WindModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.XRModule">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEditor">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/Unity.Locator">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/UnityProgram/2018.4.26/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>D:/UnityProgram/2018.4.26/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/UnityProgram/2018.4.26/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>D:/UnityProgram/2018.4.26/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>D:/UnityProgram/2018.4.26/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Analytics">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.DynamicLinks">
+      <HintPath>Assets/Firebase/Plugins/Firebase.DynamicLinks.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="CString">
+      <HintPath>Assets/Framework/plugins/CString.dll</HintPath>
+    </Reference>
+    <Reference Include="Debugger">
+      <HintPath>Assets/Framework/plugins/Debugger.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>Assets/Framework/plugins/Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/Framework/plugins/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.CJK">
+      <HintPath>Assets/Plugins/I18N.CJK.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N">
+      <HintPath>Assets/Plugins/I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets/Plugins/LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine">
+      <HintPath>Assets/Plugins/SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ProtoBase">
+      <HintPath>Assets/Plugins/SuperSocket.ProtoBase.dll</HintPath>
+    </Reference>
+    <Reference Include="UDP">
+      <HintPath>Assets/Plugins/UDP/UDP.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityStore">
+      <HintPath>Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Editor">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesignerRuntime">
+      <HintPath>Assets/Tools/Behavior Designer/Runtime/BehaviorDesignerRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Tools/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:/Paul/Unity/QP/NewPoker/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>D:/Paul/Unity/QP/NewPoker/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\Extensions\2.0.0\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>D:\UnityProgram\2018.4.26\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="NewPoker.Plugins.csproj">
+      <Project>{8CCB49FE-F87B-B2BB-D22F-A4E244367A5F}</Project>
+      <Name>NewPoker.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="BestHTTP.csproj">
+      <Project>{2650F91A-ED3C-6190-DE4D-2E2C013B333C}</Project>
+      <Name>BestHTTP</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{3A848AB7-9891-EDDA-D555-BF184C2F81F4}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PackageManagerUI.Editor.csproj">
+      <Project>{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}</Project>
+      <Name>Unity.PackageManagerUI.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
+      <Project>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</Project>
+      <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GoogleMobileAds.csproj">
+      <Project>{6D07B94A-051A-AD6D-B060-3694D43895C4}</Project>
+      <Name>GoogleMobileAds</Name>
+    </ProjectReference>
+    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
+      <Project>{1B4F86DD-FA88-FC20-0B75-BCA3950EBC7B}</Project>
+      <Name>GoogleMobileAds.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{07A21C90-D344-AE1A-8456-9910C203B41A}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
+      <Project>{D6E266C6-3D1F-28C8-9FEB-2A01E44DBF77}</Project>
+      <Name>Unity.Analytics.DataPrivacy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
+    <Compile Include="Assets\Framework\Scripts\Base\BaseScene.cs" />
+    <Compile Include="Assets\Framework\Scripts\Base\IUpdate.cs" />
+    <Compile Include="Assets\Framework\Scripts\BaseWorld.cs" />
+    <Compile Include="Assets\Framework\Scripts\Common\FileUtil.cs" />
+    <Compile Include="Assets\Framework\Scripts\Common\SingletonBehaviour.cs" />
+    <Compile Include="Assets\Framework\Scripts\Common\SingletonObject.cs" />
+    <Compile Include="Assets\Framework\Scripts\Common\Util.cs" />
+    <Compile Include="Assets\Framework\Scripts\Common\WebUtil.cs" />
+    <Compile Include="Assets\Framework\Scripts\Const\AppConst.cs" />
+    <Compile Include="Assets\Framework\Scripts\Download\DownloadTask.cs" />
+    <Compile Include="Assets\Framework\Scripts\Download\DownloadThread.cs" />
+    <Compile Include="Assets\Framework\Scripts\Download\FileDownload.cs" />
+    <Compile Include="Assets\Framework\Scripts\JsonLoader\IProtoData.cs" />
+    <Compile Include="Assets\Framework\Scripts\LuaHelp\LuaBundlePath.cs" />
+    <Compile Include="Assets\Framework\Scripts\LuaHelp\LuaHelper.cs" />
+    <Compile Include="Assets\Framework\Scripts\LuaHelp\LuaLoader.cs" />
+    <Compile Include="Assets\Framework\Scripts\Manager\HttpManager.cs" />
+    <Compile Include="Assets\Framework\Scripts\Manager\LuaManager.cs" />
+    <Compile Include="Assets\Framework\Scripts\Manager\Manager.cs" />
+    <Compile Include="Assets\Framework\Scripts\Manager\NetworkManager.cs" />
+    <Compile Include="Assets\Framework\Scripts\Manager\PoolManager.cs" />
+    <Compile Include="Assets\Framework\Scripts\Manager\ProtoManager.cs" />
+    <Compile Include="Assets\Framework\Scripts\Manager\ResManager.cs" />
+    <Compile Include="Assets\Framework\Scripts\Manager\SoundManager.cs" />
+    <Compile Include="Assets\Framework\Scripts\Manager\TimerManager.cs" />
+    <Compile Include="Assets\Framework\Scripts\Manager\UIManager.cs" />
+    <Compile Include="Assets\Framework\Scripts\Manager\UpdateManager.cs" />
+    <Compile Include="Assets\Framework\Scripts\Message\MessageDispacher.cs" />
+    <Compile Include="Assets\Framework\Scripts\Message\Notification.cs" />
+    <Compile Include="Assets\Framework\Scripts\Network\ByteBuffer.cs" />
+    <Compile Include="Assets\Framework\Scripts\Network\Converter.cs" />
+    <Compile Include="Assets\Framework\Scripts\Network\Protocal.cs" />
+    <Compile Include="Assets\Framework\Scripts\Network\ProtocolMessage.cs" />
+    <Compile Include="Assets\Framework\Scripts\Network\SimpleSocket.cs" />
+    <Compile Include="Assets\Framework\Scripts\ObjPool\PoolObject.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\BaseView.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\ScrollView\DynamicHScrollView.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\ScrollView\DynamicScrollView.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\ScrollView\DynamicScrollViewItem.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\ScrollView\DynamicScrollViewItemExample.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\ScrollView\DynamicVScrollView.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\ScrollView\Extensions\GameObjectEx.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\ScrollView\Extensions\RectTransformEx.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\ScrollView\ScrollbarHandleSize.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\UIAllEvent.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\UIButton.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\UIEvent.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\UIPanel.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\UIRoot.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\UIType.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\UIWidget.cs" />
+    <Compile Include="Assets\Framework\Scripts\UICompenent\ViewTable.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\LuaInterface_EventObjectWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\LuaInterface_LuaConstructorWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\LuaInterface_LuaFieldWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\LuaInterface_LuaMethodWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\LuaInterface_LuaOutWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\LuaInterface_LuaPropertyWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_ArrayWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_Collections_Generic_Dictionary_KeyCollectionWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_Collections_Generic_Dictionary_ValueCollectionWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_Collections_Generic_DictionaryWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_Collections_Generic_KeyValuePairWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_Collections_Generic_ListWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_Collections_IEnumeratorWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_Collections_ObjectModel_ReadOnlyCollectionWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_DelegateWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_EnumWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_NullObjectWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_ObjectWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_StringWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\System_TypeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\UnityEngine_CoroutineWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\BaseType\UnityEngine_ObjectWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaAttributes.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaBaseRef.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaBeatEvent.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaDLL.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaEvent.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaException.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaFileUtils.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaFunction.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaMatchType.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaMethodCache.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaMisc.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaStackOp.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaState.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaStatePtr.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaStatic.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaTable.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaThread.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaUnityLibs.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\LuaValueType.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\ObjectPool.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\ObjectTranslator.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\ToLua.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\TypeChecker.cs" />
+    <Compile Include="Assets\Framework\ToLua\Core\TypeTraits.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\01_HelloWorld\HelloWorld.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\02_ScriptsFromFile\ScriptsFromFile.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\03_CallLuaFunction\CallLuaFunction.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\04_AccessingLuaVariables\AccessingLuaVariables.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\05_LuaCoroutine\TestCoroutine.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\06_LuaCoroutine2\TestCoroutine2.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\07_LuaThread\TestLuaThread.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\08_AccessingArray\AccessingArray.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccount_KeyCollectionWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccount_ValueCollectionWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccountWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\09_Dictionary\System_Collections_Generic_KeyValuePair_int_TestAccountWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\09_Dictionary\TestAccountWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\09_Dictionary\UseDictionary.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\10_Enum\AccessingEnum.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\11_Delegate\TestDelegate.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\11_Delegate\TestEventListener.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\11_Delegate\TestEventListenerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\12_GameObject\TestGameObject.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\13_CustomLoader\TestCustomLoader.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\14_Out\TestOutArg.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\15_ProtoBuffer\TestProtoBuffer.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\15_ProtoBuffer\TestProtol.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\15_ProtoBuffer\TestProtolWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\16_Int64\TestInt64.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\17_Inherit\TestInherit.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\18_Bundle\TestABLoader.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\19_cjson\TestCJson.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\20_utf8\TestUTF8.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\21_String\TestString.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\22_Reflection\TestReflection.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\23_List\UseList.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\24_Struct\PassStruct.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\Performance\TestPerformance.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\TestErrorStack\TestInstantiate.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\TestErrorStack\TestInstantiate2.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\TestErrorStack\TestLuaStack.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\TestInjection\BaseTestWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\TestInjection\TestInjection.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\TestInjection\ToLuaInjectionTest.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\TestInjection\ToLuaInjectionTestWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\TestOverload\TestExport_SpaceWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\TestOverload\TestExportWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Examples\TestOverload\TestOverload.cs" />
+    <Compile Include="Assets\Framework\ToLua\Injection\LuaInjectionStation.cs" />
+    <Compile Include="Assets\Framework\ToLua\Misc\LuaClient.cs" />
+    <Compile Include="Assets\Framework\ToLua\Misc\LuaCoroutine.cs" />
+    <Compile Include="Assets\Framework\ToLua\Misc\LuaLooper.cs" />
+    <Compile Include="Assets\Framework\ToLua\Misc\LuaProfiler.cs" />
+    <Compile Include="Assets\Framework\ToLua\Misc\LuaResLoader.cs" />
+    <Compile Include="Assets\Framework\ToLua\Reflection\LuaConstructor.cs" />
+    <Compile Include="Assets\Framework\ToLua\Reflection\LuaField.cs" />
+    <Compile Include="Assets\Framework\ToLua\Reflection\LuaMethod.cs" />
+    <Compile Include="Assets\Framework\ToLua\Reflection\LuaProperty.cs" />
+    <Compile Include="Assets\Framework\ToLua\Reflection\LuaReflection.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\agora_gaming_rtc_CONNECTION_STATE_TYPEWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\agora_gaming_rtc_IRtcEngineNativeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\agora_gaming_rtc_IRtcEngineWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\AgoraInterFaceWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\AndroidMailWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\AndroidWhatsAppWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\BaseWorldWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\ChatDataSaveWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DataSaveWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DelegateFactory.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DG_Tweening_DOTweenWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DG_Tweening_DOVirtualWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DG_Tweening_EaseWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DG_Tweening_LoopTypeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DG_Tweening_PathModeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DG_Tweening_PathTypeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DG_Tweening_RotateModeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DG_Tweening_SequenceWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DG_Tweening_TweenerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DG_Tweening_TweenWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DownloadCachesMgrWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DynamicListWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\DynamicPageWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\FbManangerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\FireBaseMgrWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_AppConstWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_BaseViewWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_HttpManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_LuaHelperWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_LuaManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_Manager_Framework_HttpManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_Manager_Framework_LuaManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_Manager_Framework_ResManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_Manager_Framework_SoundManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_Manager_Framework_UIManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_Manager_Framework_UpdateManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_Manager_PoolManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_NetworkManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_ResManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_SoundManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_TimerManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_UIManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_UIPanelWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_UIWidgetWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_UpdateManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Framework_UtilWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\GameWorldWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\GoogleAnalyciseWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\GoogleRewardAdsScriptWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\IEnumeratorUtilWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\InputFieldEventWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\InputFieldSubmitWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\InputFilterWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\llV2ChatMsgWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\llV2ItemWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\llV2PageViewWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\LobbyChatIMWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\LoginMsgWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\LoopListView2HelperWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\LuaBinder.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\LuaInterface_DebuggerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\LuaInterface_InjectTypeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\LuaInterface_LuaInjectionStationWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\LuaProfilerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\MessageDispacherWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Mosframe_DynamicHScrollViewWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Mosframe_DynamicScrollViewWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\Mosframe_DynamicVScrollViewWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\NotificationWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\PanSliderWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\PlatformUtilWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\PoolManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\ProtoManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\PurchaseManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\PurchaseWrapWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\RechargePendingManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\RefGameObjectWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\ScrollRectExtOfVerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\ScrollRectFlushWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\ScrollRectLoadWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonBehaviour_BaseWorldWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonBehaviour_Framework_NetworkManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonObject_AndroidWhatsAppWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonObject_ChatDataSaveWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonObject_DownloadCachesMgrWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonObject_FbManangerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonObject_FireBaseMgrWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonObject_Framework_TimerManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonObject_GoogleAnalyciseWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonObject_GoogleRewardAdsScriptWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonObject_LoginMsgWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SingletonObject_ProtoManagerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SliderControlWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SuperScrollView_LoopListView2Wrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SuperScrollView_LoopListViewInitParamWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\SuperScrollView_LoopListViewItem2Wrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\System_TimeSpanWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\TimeUtilWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UIButtonWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UIToolsWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_AnimationBlendModeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_AnimationClipWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_AnimationStateWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_AnimationWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_AnimatorStateInfoWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_AnimatorWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_ApplicationWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_AssetBundleWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_AsyncOperationWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_AudioBehaviourWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_AudioClipWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_AudioSourceWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_BehaviourWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_BlendWeightsWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_BoxColliderWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_CameraClearFlagsWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_CameraWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_CanvasGroupWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_CanvasWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_CapsuleColliderWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_CharacterControllerWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_ColliderWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_ComponentWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_Events_UnityEvent_boolWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_Events_UnityEvent_floatWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_Events_UnityEvent_UnityEngine_Vector2Wrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_Events_UnityEventBaseWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_EventSystems_UIBehaviourWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_GameObjectWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_HorizontalWrapModeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_KeyCodeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_MaterialWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_MeshColliderWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_MeshRendererWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_MonoBehaviourWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_ParticleSystemRendererWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_PhysicsWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_PlayerPrefsWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_PlayModeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_QueueModeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_RectOffsetWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_RectTransform_AxisWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_RectTransformWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_RectWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_RendererWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_RenderSettingsWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_RenderTextureWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_ResourcesWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_RigidbodyWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_ScreenWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_ShaderWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_SkinnedMeshRendererWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_SleepTimeoutWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_SpaceWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_SphereColliderWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_SpriteWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_Texture2DWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_TextureWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_TimeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_TrackedReferenceWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_TransformWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_ContentSizeFitter_FitModeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_ContentSizeFitterWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_GraphicWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_HorizontalOrVerticalLayoutGroupWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_ImageWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_InputFieldWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_LayoutGroupWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_LayoutRebuilderWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_MaskableGraphicWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_RawImageWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_ScrollRect_ScrollRectEventWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_ScrollRectWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_SelectableWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_Slider_SliderEventWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_SliderWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_TextWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_Toggle_ToggleEventWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_ToggleGroupWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_ToggleWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_UI_VerticalLayoutGroupWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_WrapModeWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_WWWFormWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityEngine_WWWWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UnityWebRequestUtilWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\Generate\UserInfoCSharpWrap.cs" />
+    <Compile Include="Assets\Framework\ToLua\Source\LuaConst.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\AgoraCallback.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\AgoraChannel.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\AgoraChannelCallback.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\AgoraEnums.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\AgoraGamingRtcEngine.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\AudioEffectManager.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\deviceManager\AudioPlaybackDeviceManager.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\deviceManager\AudioRecordingDeviceManager.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\deviceManager\VideoDeviceManager.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\native\IAgoraGamingRtcEngineNative.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\observer\MetaDataObserver.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\observer\PacketObserver.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\rawData\AudioRawDataManager.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\rawData\VideoRawDataManager.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\tools\AgoraCallbackObject.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\tools\AgoraCallbackQueue.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\tools\AgoraLog.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\videoRender\VideoRender.cs" />
+    <Compile Include="Assets\Scripts\AgoraGamingSDK\videoRender\VideoSurface.cs" />
+    <Compile Include="Assets\Scripts\ChatDataSave.cs" />
+    <Compile Include="Assets\Scripts\Common\AndroidMail.cs" />
+    <Compile Include="Assets\Scripts\Common\AndroidUtil.cs" />
+    <Compile Include="Assets\Scripts\Common\AndroidWhatsApp.cs" />
+    <Compile Include="Assets\Scripts\Common\GoSingle.cs" />
+    <Compile Include="Assets\Scripts\Const\Defines.cs" />
+    <Compile Include="Assets\Scripts\DataSave.cs" />
+    <Compile Include="Assets\Scripts\DownloadCachesMgr.cs" />
+    <Compile Include="Assets\Scripts\EffectShow.cs" />
+    <Compile Include="Assets\Scripts\Game\Common\InputFilter.cs" />
+    <Compile Include="Assets\Scripts\Game\Common\UI_Fx.cs" />
+    <Compile Include="Assets\Scripts\Game\Common\UITools.cs" />
+    <Compile Include="Assets\Scripts\Game\UIParticle\AnimatableProperty.cs" />
+    <Compile Include="Assets\Scripts\Game\UIParticle\BakingCamera.cs" />
+    <Compile Include="Assets\Scripts\Game\UIParticle\CombineInstanceEx.cs" />
+    <Compile Include="Assets\Scripts\Game\UIParticle\MeshHelper.cs" />
+    <Compile Include="Assets\Scripts\Game\UIParticle\UIParticle.cs" />
+    <Compile Include="Assets\Scripts\Game\UIParticle\UIParticleUpdater.cs" />
+    <Compile Include="Assets\Scripts\Game\UIParticle\Utils.cs" />
+    <Compile Include="Assets\Scripts\GamePanel\PanSlider.cs" />
+    <Compile Include="Assets\Scripts\GameWorld.cs" />
+    <Compile Include="Assets\Scripts\InputFieldSubmit.cs" />
+    <Compile Include="Assets\Scripts\InternetChecker.cs" />
+    <Compile Include="Assets\Scripts\LeaveHandler.cs" />
+    <Compile Include="Assets\Scripts\Lobby\LobbyChat.cs" />
+    <Compile Include="Assets\Scripts\LoginMsg.cs" />
+    <Compile Include="Assets\Scripts\Loom.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\BclHelpers.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\BufferExtension.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\BufferPool.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\CallbackAttributes.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Compiler\CompilerContext.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Compiler\CompilerDelegates.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Compiler\Local.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\DataFormat.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\DiscriminatedUnion.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\DiscriminatedUnion.Serializable.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Extensible.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ExtensibleUtil.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\GlobalSuppressions.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Helpers.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\IExtensible.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\IExtension.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ImplicitFields.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\IProtoSerializerT.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\KeyValuePairProxy.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Meta\AttributeMap.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Meta\BasicList.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Meta\CallbackSet.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Meta\MetaType.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Meta\ProtoSyntax.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Meta\RuntimeTypeModel.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Meta\SubType.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Meta\TypeFormatEventArgs.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Meta\TypeModel.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Meta\ValueMember.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\NetObjectCache.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\obj\Debug\net40\protobuf-net.AssemblyInfo.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\PrefixStyle.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoContractAttribute.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoConverterAttribute.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoEnumAttribute.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoException.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoIgnoreAttribute.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoIncludeAttribute.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoMapAttribute.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoMemberAttribute.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoReader.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoReader.ReadOnlySequence.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoReader.State.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoReader.Stream.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoWriter.BufferWriter.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoWriter.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoWriter.Null.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoWriter.State.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ProtoWriter.Stream.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\SerializationContext.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\ArrayDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\BlobSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\BooleanSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\ByteSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\CharSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\CompiledSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\DateTimeSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\DecimalSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\DefaultValueDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\DoubleSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\EnumSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\FieldDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\GuidSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\ImmutableCollectionDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\Int16Serializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\Int32Serializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\Int64Serializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\IProtoSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\IProtoTypeSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\ISerializerProxy.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\ListDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\MapDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\MemberSpecifiedDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\NetObjectSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\NullDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\ParseableSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\PropertyDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\ProtoDecoratorBase.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\ReflectedUriDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\SByteSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\SingleSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\StringSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\SubItemSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\SurrogateSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\SystemTypeSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\TagDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\TimeSpanSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\TupleSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\TypeSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\UInt16Serializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\UInt32Serializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\UInt64Serializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\Serializers\UriDecorator.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ServiceModel\ProtoBehaviorAttribute.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ServiceModel\ProtoBehaviorExtensionElement.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ServiceModel\ProtoEndpointBehavior.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ServiceModel\ProtoOperationBehavior.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\ServiceModel\XmlProtoSerializer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\SubItemToken.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\Plugins\protobuf-net\WireType.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\transferData\Const.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\transferData\Hall.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\transferData\HP.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\transferData\InnerServer.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\transferData\Login.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\transferData\Player.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\transferData\Room.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\transferData\Status.cs" />
+    <Compile Include="Assets\Scripts\NatNetwork\ProtoBuf\transferData\SysProtocol.cs" />
+    <Compile Include="Assets\Scripts\Player\UserInfoCSharp.cs" />
+    <Compile Include="Assets\Scripts\Prototype\MonsterPrototype.cs" />
+    <Compile Include="Assets\Scripts\Purchase\PurchaseManager.cs" />
+    <Compile Include="Assets\Scripts\Purchase\PurchaseWrap.cs" />
+    <Compile Include="Assets\Scripts\Purchase\RechargePendingManager.cs" />
+    <Compile Include="Assets\Scripts\Ref\RefGameObject.cs" />
+    <Compile Include="Assets\Scripts\ScrollViewScripts\ExpandCircularScrollView.cs" />
+    <Compile Include="Assets\Scripts\ScrollViewScripts\ExpandTipsCircularScrollView.cs" />
+    <Compile Include="Assets\Scripts\ScrollViewScripts\FlipPageCircularScrollView.cs" />
+    <Compile Include="Assets\Scripts\ScrollViewScripts\ScrollRectExtOfHor.cs" />
+    <Compile Include="Assets\Scripts\ScrollViewScripts\ScrollRectExtOfVer.cs" />
+    <Compile Include="Assets\Scripts\ScrollViewScripts\UICircularScrollView.cs" />
+    <Compile Include="Assets\Scripts\SDK\Agora\RTC\AgoraInterFace.cs" />
+    <Compile Include="Assets\Scripts\SDK\Agora\RTM\LobbyChatIM.cs" />
+    <Compile Include="Assets\Scripts\SDK\Analycise\GoogleAnalycise.cs" />
+    <Compile Include="Assets\Scripts\SDK\FaceBook\FbMananger.cs" />
+    <Compile Include="Assets\Scripts\SDK\FireBase\FireBaseMgr.cs" />
+    <Compile Include="Assets\Scripts\SDK\GoogleAdMob\GoogleRewardAdsScript.cs" />
+    <Compile Include="Assets\Scripts\SocketManager.cs" />
+    <Compile Include="Assets\Scripts\SuperClient.cs" />
+    <Compile Include="Assets\Scripts\SuperScrollView\llV2ChatMsg.cs" />
+    <Compile Include="Assets\Scripts\SuperScrollView\llV2Item.cs" />
+    <Compile Include="Assets\Scripts\SuperScrollView\llV2PageView.cs" />
+    <Compile Include="Assets\Scripts\SuperScrollView\LoopListView2Helper.cs" />
+    <Compile Include="Assets\Scripts\TableDataSave.cs" />
+    <Compile Include="Assets\Scripts\test.cs" />
+    <Compile Include="Assets\Scripts\test1.cs" />
+    <Compile Include="Assets\Scripts\UIExtends\CustomScrollRect.cs" />
+    <Compile Include="Assets\Scripts\UIExtends\DragScrollViewCheck.cs" />
+    <Compile Include="Assets\Scripts\UIExtends\DynamicList.cs" />
+    <Compile Include="Assets\Scripts\UIExtends\DynamicPage.cs" />
+    <Compile Include="Assets\Scripts\UIExtends\HyperlinkText.cs" />
+    <Compile Include="Assets\Scripts\UIExtends\InputFieldEvent.cs" />
+    <Compile Include="Assets\Scripts\UIExtends\InputFieldToContent.cs" />
+    <Compile Include="Assets\Scripts\UIExtends\ScrollRectFlush.cs" />
+    <Compile Include="Assets\Scripts\UIExtends\ScrollRectLoad.cs" />
+    <Compile Include="Assets\Scripts\UIExtends\SliderControl.cs" />
+    <Compile Include="Assets\Scripts\UIs\UI_StartUp.cs" />
+    <Compile Include="Assets\Scripts\UIs\Widget_Te.cs" />
+    <Compile Include="Assets\Scripts\Util\GameObjectUtil.cs" />
+    <Compile Include="Assets\Scripts\Util\IEnumeratorUtil.cs" />
+    <Compile Include="Assets\Scripts\Util\PlatformUtil.cs" />
+    <Compile Include="Assets\Scripts\Util\TimeUtil.cs" />
+    <Compile Include="Assets\Scripts\Util\UnityWebRequestUtil.cs" />
+    <Compile Include="Assets\Shader\_2DC_ShaderLerpDemo.cs" />
+    <Compile Include="Assets\SuperScrollView\Scripts\ClickEventListener.cs" />
+    <Compile Include="Assets\SuperScrollView\Scripts\ItemPosMgr.cs" />
+    <Compile Include="Assets\SuperScrollView\Scripts\LoopListView2.cs" />
+    <Compile Include="Assets\SuperScrollView\Scripts\LoopListViewItem2.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\BehaviorTreeReference.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\Idle.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\Log.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\PerformInterruption.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\Reflection\GetFieldValue.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\Reflection\GetPropertyValue.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\Reflection\InvokeMethod.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\Reflection\SetFieldValue.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\Reflection\SetPropertyValue.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\RestartBehaviorTree.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\SendEvent.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\StartBehaviorTree.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\StopBehaviorTree.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Actions\Wait.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\Blend.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\CrossFade.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\CrossFadeQueued.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\GetAnimatePhysics.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\IsPlaying.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\Play.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\PlayQueued.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\Rewind.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\Sample.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\SetAnimatePhysics.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\SetWrapMode.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animation\Stop.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\CrossFade.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\GetApplyRootMotion.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\GetBoolParameter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\GetDeltaPosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\GetDeltaRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\GetFloatParameter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\GetGravityWeight.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\GetIntegerParameter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\GetLayerWeight.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\GetSpeed.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\GetStringToHash.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\InterruptMatchTarget.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\IsInTransition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\IsName.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\IsParameterControlledByCurve.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\MatchTarget.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\Play.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\SetApplyRootMotion.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\SetBoolParameter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\SetFloatParameter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\SetIntegerParameter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\SetLayerWeight.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\SetLookAtPosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\SetLookAtWeight.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\SetSpeed.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\SetTrigger.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\StartPlayback.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\StartRecording.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\StopPlayback.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Animator\StopRecording.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetIgnoreListenerPause.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetIgnoreListenerVolume.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetLoop.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetMaxDistance.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetMinDistance.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetMute.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetPitch.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetPriority.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetSpread.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetTime.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetTimeSamples.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\GetVolume.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\IsPlaying.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\Pause.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\Play.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\PlayDelayed.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\PlayOneShot.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\PlayScheduled.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetAudioClip.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetIgnoreListenerPause.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetIgnoreListenerVolume.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetLoop.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetMaxDistance.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetMinDistance.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetMute.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetPan.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetPanLevel.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetPitch.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetPriority.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetRolloffMode.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetScheduledEndTime.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetScheduledStartTime.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetSpread.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetTime.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetVelocityUpdateMode.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\SetVolume.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\AudioSource\Stop.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Behaviour\GetIsEnabled.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Behaviour\IsEnabled.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Behaviour\SetIsEnabled.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\BoxCollider\GetCenter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\BoxCollider\GetSize.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\BoxCollider\SetCenter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\BoxCollider\SetSize.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\BoxCollider2D\GetSize.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\BoxCollider2D\SetSize.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\GetCenter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\GetDirection.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\GetHeight.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\GetRadius.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\SetCenter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\SetDirection.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\SetHeight.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CapsuleCollider\SetRadius.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetCenter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetHeight.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetRadius.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetSlopeLimit.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetStepOffset.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\GetVelocity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\HasColliderHit.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\IsGrounded.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\Move.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\SetCenter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\SetHeight.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\SetRadius.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\SetSlopeLimit.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\SetStepOffset.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CharacterController\SimpleMove.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CircleCollider2D\GetCenter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CircleCollider2D\GetRadius.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CircleCollider2D\SetCenter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\CircleCollider2D\SetRadius.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Debug\DrawLine.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Debug\DrawRay.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Debug\LogFormat.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Debug\LogValue.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\ActiveInHierarchy.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\ActiveSelf.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\CompareTag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\Destroy.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\DestroyImmediate.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\Find.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\FindGameObjectsWithTag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\FindWithTag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\GetComponent.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\GetTag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\Instantiate.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\SendMessage.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\SetActive.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\GameObject\SetTag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\GetAcceleration.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\GetAxis.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\GetAxisRaw.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\GetButton.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\GetKey.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\GetMouseButton.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\GetMousePosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\IsButtonDown.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\IsButtonUp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\IsKeyDown.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\IsKeyUp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\IsMouseDown.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Input\IsMouseUp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\LayerMask\GetLayer.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\LayerMask\SetLayer.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\GetColor.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\GetCookieSize.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\GetIntensity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\GetRange.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\GetShadowBias.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\GetShadowStrength.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\GetSpotAngle.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetColor.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetCookie.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetCookieSize.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetCullingMask.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetIntensity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetRange.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetShadowBias.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetShadows.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetShadowSoftness.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetShadowSoftnessFade.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetShadowStrength.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetSpotAngle.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Light\SetType.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\BoolComparison.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\BoolFlip.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\BoolOperator.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\FloatAbs.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\FloatClamp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\FloatComparison.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\FloatOperator.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\IntAbs.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\IntClamp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\IntComparison.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\IntOperator.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\IsFloatPositive.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\IsIntPositive.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\Lerp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\LerpAngle.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\RandomBool.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\RandomFloat.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\RandomInt.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\SetBool.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\SetFloat.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Math\SetInt.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\GetAcceleration.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\GetAngularSpeed.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\GetDestination.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\GetRemainingDistance.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\GetSpeed.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\Move.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\ResetPath.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\Resume.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\SetAcceleration.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\SetAngularSpeed.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\SetDestination.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\SetSpeed.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\Stop.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\NavMeshAgent\Warp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Network\IsClient.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Network\IsServer.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\Clear.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetDuration.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetEmissionRate.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetEnableEmission.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetGravityModifier.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetLoop.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetMaxParticles.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetParticleCount.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetPlaybackSpeed.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\GetTime.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\IsAlive.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\IsPaused.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\IsPlaying.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\IsStopped.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\Pause.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\Play.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetEmissionRate.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetEnableEmission.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetGravityModifier.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetLoop.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetMaxParticles.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetPlaybackSpeed.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartColor.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartDelay.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartLifetime.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartSize.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetStartSpeed.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\SetTime.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\Simulate.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\ParticleSystem\Stop.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Physics\Linecast.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Physics\Raycast.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Physics\Spherecast.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Physics2D\Circlecast.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Physics2D\Linecast.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Physics2D\Raycast.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\DeleteAll.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\DeleteKey.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\GetFloat.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\GetInt.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\GetString.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\HasKey.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\Save.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\SetFloat.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\SetInt.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\PlayerPrefs\SetString.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Quaternion\Angle.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Quaternion\AngleAxis.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Quaternion\Dot.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Quaternion\Euler.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Quaternion\FromToRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Quaternion\Identity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Quaternion\Inverse.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Quaternion\Lerp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Quaternion\LookRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Quaternion\RotateTowards.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Quaternion\Slerp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Renderer\IsVisible.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Renderer\SetMaterial.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddExplosionForce.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddForce.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddForceAtPosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddRelativeForce.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddRelativeTorque.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\AddTorque.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetAngularDrag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetAngularVelocity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetCenterOfMass.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetDrag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetFreezeRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetIsKinematic.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetMass.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetPosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetUseGravity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\GetVelocity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\IsKinematic.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\IsSleeping.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\MovePosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\MoveRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetAngularDrag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetAngularVelocity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetCenterOfMass.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetConstraints.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetDrag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetFreezeRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetIsKinematic.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetMass.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetPosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetUseGravity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\SetVelocity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\Sleep.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\UseGravity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody\WakeUp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\AddForce.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\AddForceAtPosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\AddTorque.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetAngularDrag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetAngularVelocity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetDrag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetGravtyScale.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetIsKinematic.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetMass.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetPosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\GetVelocity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\IsKinematic.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\IsSleeping.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\MovePosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\MoveRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetAngularDrag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetAngularVelocity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetDrag.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetGravityScale.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetIsKinematic.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetMass.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\SetVelocity.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\Sleep.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Rigidbody2D\WakeUp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedBool.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedColor.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedFloat.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedGameObject.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedGameObjectList.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedInt.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedObject.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedObjectList.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedQuaternion.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedRect.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedString.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedTransform.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedTransformList.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedVector2.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedVector3.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\CompareSharedVector4.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedBool.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedColor.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedFloat.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedGameObject.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedGameObjectList.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedInt.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedObject.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedObjectList.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedQuaternion.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedRect.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedString.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedTransform.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedTransformList.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedVector2.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedVector3.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SetSharedVector4.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SharedGameObjectsToGameObjectList.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SharedGameObjectToTransform.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SharedTransformsToTransformList.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SharedVariables\SharedTransformToGameObject.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SphereCollider\GetCenter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SphereCollider\GetRadius.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SphereCollider\SetCenter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\SphereCollider\SetRadius.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\String\BuildString.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\String\CompareTo.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\String\Format.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\String\GetLength.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\String\GetRandomString.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\String\GetSubstring.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\String\IsNullOrEmpty.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\String\Replace.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\String\SetString.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Time\GetDeltaTime.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Time\GetRealtimeSinceStartup.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Time\GetTime.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Time\GetTimeScale.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Time\SetTimeScale.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\Find.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\FindChild.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetAngleToTarget.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetChild.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetChildCount.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetEulerAngles.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetForwardVector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetLocalEulerAngles.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetLocalPosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetLocalRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetLocalScale.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetParent.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetPosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetRightVector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\GetUpVector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\IsChildOf.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\LookAt.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\Rotate.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\RotateAround.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\SetEulerAngles.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\SetForwardVector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\SetLocalEulerAngles.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\SetLocalPosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\SetLocalRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\SetLocalScale.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\SetParent.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\SetPosition.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\SetRightVector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\SetRotation.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\SetUpVector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Transform\Translate.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\ClampMagnitude.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\Distance.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\Dot.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\GetMagnitude.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\GetRightVector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\GetSqrMagnitude.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\GetUpVector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\GetVector3.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\GetXY.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\Lerp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\MoveTowards.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\Multiply.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\Normalize.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\Operator.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\SetValue.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector2\SetXY.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\Angle.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\ClampMagnitude.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\Distance.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\Dot.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\GetForwardVector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\GetMagnitude.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\GetRightVector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\GetSqrMagnitude.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\GetUpVector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\GetVector2.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\GetXYZ.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\Lerp.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\MoveTowards.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\Multiply.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\Normalize.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\Operator.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\RotateTowards.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\SetValue.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Basic Tasks\Vector3\SetXYZ.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\BehaviorTree.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Composites\Parallel.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Composites\ParallelComplete.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Composites\ParallelSelector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Composites\PrioritySelector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Composites\RandomSelector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Composites\RandomSequence.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Composites\Selector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Composites\SelectorEvaluator.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Composites\Sequence.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Composites\UtilitySelector.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\HasReceivedEvent.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\Physics\HasEnteredCollision.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\Physics\HasEnteredCollision2D.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\Physics\HasEnteredTrigger.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\Physics\HasEnteredTrigger2D.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\Physics\HasExitedCollision.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\Physics\HasExitedCollision2D.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\Physics\HasExitedTrigger.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\Physics\HasExitedTrigger2D.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\RandomProbability.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\Reflection\CompareFieldValue.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Conditionals\Reflection\ComparePropertyValue.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Decorators\ConditionalEvaluator.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Decorators\Interrupt.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Decorators\Inverter.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Decorators\Repeater.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Decorators\ReturnFailure.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Decorators\ReturnSuccess.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Decorators\TaskGuard.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Decorators\UntilFailure.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Decorators\UntilSuccess.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\EntryTask.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\ExternalBehaviorTree.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Object Drawers\FloatSliderAttribute.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Object Drawers\IntSliderAttribute.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedBool.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedColor.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedFloat.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedGameObject.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedGameObjectList.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedInt.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedMaterial.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedObject.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedObjectList.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedQuaternion.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedRect.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedString.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedTransform.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedTransformList.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedVector2.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedVector3.cs" />
+    <Compile Include="Assets\Tools\Behavior Designer\Runtime\Variables\SharedVector4.cs" />
+    <Compile Include="Assets\Tools\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\Tools\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\Tools\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\Tools\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Tools\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Tools\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\Tools\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\AutoInitialize.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\Api.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\ApiUtil.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\BugReportApi.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\BugReportScreenshotUtil.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\CircularBuffer.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\EditorUtil.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\OptionControlFactory.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\OptionDefinition.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\Paths.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\Service.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\Strings.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Internal\Util.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Profiler\ProfilerCameraListener.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Profiler\ProfilerLateUpdateListener.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Profiler\ProfilerServiceImpl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Profiler\SRPProfilerService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\IBugReportService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\IConsoleService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\IDebugCameraService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\IDebugPanelService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\IDebugService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\IDebugTriggerService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\IDockConsoleService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\BugReportApiService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\BugReportPopoverService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\DebugCameraServiceImpl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\DebugPanelServiceImpl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\DebugTriggerImpl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\DockConsoleServiceImpl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\KeyboardShortcutListenerService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\OptionsServiceImpl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\PinEntryServiceImpl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\PinnedUIServiceImpl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\SRDebugService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\StandardConsoleService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\Implementation\SystemInformationService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\IOptionsService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\IPinEntryService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\IPinnedOptionsService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\IProfilerService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\ISystemInformationService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Services\ServiceSelectors.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Settings.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\SRDebug.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\SRDebuggerInit.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\SROptions.Attributes.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\SROptions.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\SROptions.Test.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\ConsoleEntryView.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\ConsoleLogControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\ActionControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\BoolControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\DataBoundControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\EnumControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\NumberControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\OptionsControlBase.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\ReadOnlyControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\Data\StringControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\InfoBlock.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\MultiTapButton.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\PinEntryControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\Profiler\ProfilerFPSLabel.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\Profiler\ProfilerMemoryBlock.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\Profiler\ProfilerMonoBlock.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\ProfilerEnableControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\ProfilerGraphAxisLabel.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\ProfilerGraphControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Controls\SRTabButton.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\DebuggerTabController.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\DebugPanelRoot.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\MobileMenuController.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\BugReportPopoverRoot.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\BugReportSheetController.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\CategoryGroup.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\ConfigureCanvasFromSettings.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\ConsoleTabQuickViewControl.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\DebugPanelBackgroundBehaviour.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\DockConsoleController.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\DockConsoleRoot.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\HandleManager.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\IEnableTab.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\LoadingSpinnerBehaviour.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\PinnedUIRoot.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\ScrollRectPatch.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\ScrollSettingsBehaviour.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\SetLayerFromSettings.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\SRTab.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\SRTabController.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\TriggerRoot.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Other\VersionTextBehaviour.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Tabs\BugReportTabController.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Tabs\ConsoleTabController.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Tabs\InfoTabController.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Tabs\OptionsTabController.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\UI\Tabs\ProfilerTabController.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRDebugger\Scripts\Version.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\External\Jetbrains.Annotations.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\External\MiniJSON.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Internal\ComponentMenuPaths.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Collections\SRList.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Components\SRAutoSingleton.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Components\SRMonoBehaviour.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Components\SRMonoBehaviourEx.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Components\SRSingleton.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Coroutines.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Extensions\FloatExtensions.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Extensions\IListExtensions.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Extensions\NetFxExtensions.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Extensions\TransformExtensions.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Helpers\AssetUtil.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Helpers\Hierarchy.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Helpers\MethodReference.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Helpers\PropertyReference.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Helpers\SRDebugUtil.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Helpers\SRFileUtil.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Helpers\SRInstantiate.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Helpers\SRMath.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Helpers\SRMath.Tweening.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Helpers\SRMath.Tweening.Functions.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Helpers\SRReflection.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Service\Attributes.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Service\IAsyncService.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Service\SRDependencyServiceBase.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Service\SRSceneServiceBase.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Service\SRServiceBase.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\Service\SRServiceManager.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\ContentFitText.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\CopyLayoutElement.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\CopyPreferredSize.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\CopySizeIntoLayoutElement.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\DragHandle.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\FlashGraphic.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\InheritColour.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\Layout\FlowLayoutGroup.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\Layout\VirtualVerticalLayoutGroup.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\LongPressButton.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\ResponsiveBase.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\ResponsiveEnable.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\ResponsiveResize.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\ScrollToBottomBehaviour.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\SRNumberButton.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\SRNumberSpinner.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\SRRetinaScaler.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\SRSpinner.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\SRText.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\StyleComponent.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\StyleRoot.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\StyleSheet.cs" />
+    <Compile Include="Assets\Tools\StompyRobot\SRF\Scripts\UI\Unselectable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Best HTTP\BestHTTP.asmdef" />
+    <None Include="Assets\Best HTTP\Documentation.txt" />
+    <None Include="Assets\Best HTTP\ReleaseNotes.txt" />
+    <None Include="Assets\Best HTTP\Source\SecureProtocol\License.txt" />
+    <None Include="Assets\Best HTTP\Third-Party Notices.txt" />
+    <None Include="Assets\Best HTTP\license.txt" />
+    <None Include="Assets\Best HTTP\link.xml" />
+    <None Include="Assets\Best HTTP\link_android_subset.xml" />
+    <None Include="Assets\Build\Effect\Shaders\AdditiveUI.shader" />
+    <None Include="Assets\Build\Txt\inputFilter.txt" />
+    <None Include="Assets\Build\UITexture\Art\Lobby\font\num-1-export.fnt" />
+    <None Include="Assets\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.162_manifest.txt" />
+    <None Include="Assets\FacebookSDK\Plugins\Editor\Dependencies.xml" />
+    <None Include="Assets\FacebookSDK\link.xml" />
+    <None Include="Assets\Firebase\Editor\AnalyticsDependencies.xml" />
+    <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
+    <None Include="Assets\Firebase\Editor\DynamicLinksDependencies.xml" />
+    <None Include="Assets\Firebase\Editor\FirebaseAnalytics_version-7.0.2_manifest.txt" />
+    <None Include="Assets\Firebase\Editor\FirebaseDynamicLinks_version-7.0.2_manifest.txt" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-dynamic-links-unity\maven-metadata.xml" />
+    <None Include="Assets\Framework\ToLua\Injection\InjectionBlackList.txt" />
+    <None Include="Assets\Framework\ToLua\Injection\InjectionBridgeEditorInfo.xml" />
+    <None Include="Assets\Framework\ToLua\Injection\LuaInjectionSkipPaths.txt" />
+    <None Include="Assets\Framework\ToLua\readme.txt" />
+    <None Include="Assets\Framework\plugins\Google.ProtocolBuffers.xml" />
+    <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAds.Editor.asmdef" />
+    <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />
+    <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsSKAdNetworkItems.xml" />
+    <None Include="Assets\GoogleMobileAds\GoogleMobileAds.asmdef" />
+    <None Include="Assets\Plugins\Android\AgoraAudioKit.plugin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\res\values\google-services.xml" />
+    <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\UnityPurchasing\Editor\IAPGeneratedCredentials.cs.template" />
+    <None Include="Assets\Plugins\UnityPurchasing\script\link.xml" />
+    <None Include="Assets\Shader\ColorHDR_Creation.shader" />
+    <None Include="Assets\Shader\DoodleDraw.shader" />
+    <None Include="Assets\Shader\Holographic.shader" />
+    <None Include="Assets\Shader\InfiniteZoom.shader" />
+    <None Include="Assets\Shader\InnerGlow.shader" />
+    <None Include="Assets\Shader\LiquidWave.shader" />
+    <None Include="Assets\Shader\PixelExplosion.shader" />
+    <None Include="Assets\Shader\ShinyFX.shader" />
+    <None Include="Assets\Shader\ShinyPixel.shader" />
+    <None Include="Assets\Shader\TurnGold.shader" />
+    <None Include="Assets\StreamingAssets\files.txt" />
+    <None Include="Assets\SuperScrollView\Scripts\Version 2.2.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Tools\Behavior Designer\Editor\GridShader.shader" />
+    <None Include="Assets\Tools\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Tools\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Tools\StompyRobot\SRDebugger\README.txt" />
+    <None Include="Assets\Tools\StompyRobot\SRDebugger\UI\Fonts\FONT LICENSE.txt" />
+    <None Include="Packages\com.google.external-dependency-manager\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.163_manifest.txt" />
+    <None Include="Packages\com.unity.analytics\AnalyticsStandardEvents\Analytics.asmdef" />
+    <None Include="Packages\com.unity.analytics\DataPrivacy\Unity.Analytics.DataPrivacy.asmdef" />
+    <None Include="Packages\com.unity.analytics\Tests\Editor\Unity.Analytics.StandardEvents.EditorTests.asmdef" />
+    <None Include="Packages\com.unity.analytics\Tests\Runtime\Unity.Analytics.DataPrivacy.Tests.asmdef" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Unity.CollabProxy.Editor.asmdef" />
+    <None Include="Packages\com.unity.collab-proxy\Tests\Editor\Unity.CollabProxy.EditorTests.asmdef" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageAddFromUrlField.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageDetails.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageGroup.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageItem.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageList.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageManagerToolbar.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageManagerWindow.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageSearchToolbar.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageStatusBar.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Unity.PackageManagerUI.Editor.asmdef" />
+    <None Include="Packages\com.unity.package-manager-ui\Tests\Editor\Unity.PackageManagerUI.EditorTests.asmdef" />
+    <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_Properties.cginc" />
+    <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_SDF Internal SSD.shader" />
+    <None Include="Packages\com.unity.textmeshpro\Scripts\Editor\Unity.TextMeshPro.Editor.asmdef" />
+    <None Include="Packages\com.unity.textmeshpro\Scripts\Runtime\Unity.TextMeshPro.asmdef" />
+    <None Include="Packages\com.unity.textmeshpro\Tests\Editor\Unity.TextMeshPro.Editor.Tests.asmdef" />
+    <None Include="Packages\com.unity.textmeshpro\Tests\Runtime\Unity.TextMeshPro.Tests.asmdef" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
